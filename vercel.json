@@ -1,6 +1,5 @@
 {
   "version": 2,
-  "projects": {
     "frontend": {
       "src": "frontend",
       "builds": [
@@ -16,5 +15,4 @@
         { "src": "backend/index.js", "use": "@vercel/node" }
       ]
     }
-  }
 }
