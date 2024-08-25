@@ -1,18 +1,1 @@
-{
-  "version": 2,
-    "frontend": {
-      "src": "frontend",
-      "builds": [
-        { "src": "frontend/package.json", "use": "@vercel/static-build" }
-      ],
-      "routes": [
-        { "src": "/(.*)", "dest": "frontend/$1" }
-      ]
-    },
-    "backend": {
-      "src": "backend",
-      "builds": [
-        { "src": "backend/index.js", "use": "@vercel/node" }
-      ]
-    }
-}
+
